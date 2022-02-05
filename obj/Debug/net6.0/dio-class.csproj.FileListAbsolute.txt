@@ -1,0 +1,15 @@
+C:\Users\andre\dotnet-aulas\dio-class\bin\Debug\net6.0\dio-class.exe
+C:\Users\andre\dotnet-aulas\dio-class\bin\Debug\net6.0\dio-class.deps.json
+C:\Users\andre\dotnet-aulas\dio-class\bin\Debug\net6.0\dio-class.runtimeconfig.json
+C:\Users\andre\dotnet-aulas\dio-class\bin\Debug\net6.0\dio-class.dll
+C:\Users\andre\dotnet-aulas\dio-class\bin\Debug\net6.0\ref\dio-class.dll
+C:\Users\andre\dotnet-aulas\dio-class\bin\Debug\net6.0\dio-class.pdb
+C:\Users\andre\dotnet-aulas\dio-class\obj\Debug\net6.0\dio-class.csproj.AssemblyReference.cache
+C:\Users\andre\dotnet-aulas\dio-class\obj\Debug\net6.0\dio-class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\dotnet-aulas\dio-class\obj\Debug\net6.0\dio-class.AssemblyInfoInputs.cache
+C:\Users\andre\dotnet-aulas\dio-class\obj\Debug\net6.0\dio-class.AssemblyInfo.cs
+C:\Users\andre\dotnet-aulas\dio-class\obj\Debug\net6.0\dio-class.csproj.CoreCompileInputs.cache
+C:\Users\andre\dotnet-aulas\dio-class\obj\Debug\net6.0\dio-class.dll
+C:\Users\andre\dotnet-aulas\dio-class\obj\Debug\net6.0\ref\dio-class.dll
+C:\Users\andre\dotnet-aulas\dio-class\obj\Debug\net6.0\dio-class.pdb
+C:\Users\andre\dotnet-aulas\dio-class\obj\Debug\net6.0\dio-class.genruntimeconfig.cache

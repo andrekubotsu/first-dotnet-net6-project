@@ -1,6 +1,5 @@
-# Class 01
+# Class 02
 
-- We learned about .NET Framework, .NET core and .NET. The history and why, how and where use it
-- Installation, configuration and development environment
-- Basic dotnet CLI commands, including `dotnet new console`, `dotnet --help` etc
-- First run and build included
+- We learned basics of C# lang
+- Basic debug, including breakpoints
+- namespace and classes

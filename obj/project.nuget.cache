@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nsT5ULStyYRxmRtWPq4DPaE3ehPtRSn0o1TYaZ0fvJjuxQKdxGThG2gHE4lCaCNWDx3a2G25mfVOL4ctwGpa7Q==",
+  "dgSpecHash": "bnHYbTdLX85BXqYkEn8F8JfLzXdbl08jjTSARUw56SiThkLC0zYT25qka5MWredpyyGcCw7NLyhdi3tEZp5GRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\dotnet-aulas\\dio-class\\dio-class.csproj",
+  "projectFilePath": "/home/andre/first-dotnet-net6-project/EstruturaDoPrograma.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

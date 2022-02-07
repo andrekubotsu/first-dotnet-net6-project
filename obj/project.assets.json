@@ -8,23 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\andre\\.nuget\\packages\\": {}
+    "/home/andre/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\dotnet-aulas\\dio-class\\dio-class.csproj",
-      "projectName": "dio-class",
-      "projectPath": "C:\\Users\\andre\\dotnet-aulas\\dio-class\\dio-class.csproj",
-      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\dotnet-aulas\\dio-class\\obj\\",
+      "projectUniqueName": "/home/andre/first-dotnet-net6-project/EstruturaDoPrograma.csproj",
+      "projectName": "EstruturaDoPrograma",
+      "projectPath": "/home/andre/first-dotnet-net6-project/EstruturaDoPrograma.csproj",
+      "packagesPath": "/home/andre/.nuget/packages/",
+      "outputPath": "/home/andre/first-dotnet-net6-project/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/andre/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
@@ -55,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }

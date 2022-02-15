@@ -54,15 +54,106 @@ namespace Instructions
         }
         static void InstructionDo(string[] args)
         {
-
+            string text;
+            do
+            {
+                text = Console.ReadLine(); // to read something
+                Console.WriteLine(text);
+            } while (!string.IsNullOrEmpty(text));
         }
         static void InstructionFor(string[] args)
         {
-
+            for (int i = 0; i < args.Length; i++)
+            {
+                Console.WriteLine(args[i]);
+            }
         }
         static void InstructionForeach(string[] args)
         {
+            foreach (string s in args)
+            {
+                Console.WriteLine(s);
+            }
+        }
+        static void InstructionBreak(string[] args)
+        {
+            while (true)
+            {
+                string s = Console.ReadLine();
 
+                if (string.IsNullOrEmpty(s))
+                {
+                    break;
+                }
+                Console.WriteLine(s);
+            }
+        }
+        static void InstructionContinue(string[] args)
+        {
+            for (int i = 0; i < args.Length; i++)
+            {
+                if (args[i].StartsWith("/"))
+                {
+                    continue;
+                }
+                Console.WriteLine(args[i]);
+            }
+        }
+        static void InstructionReturn(string[] args)
+        {
+            int Somar(int a, int b)
+            {
+                return a + b;
+            }
+
+            Console.WriteLine(Somar(1, 2));
+            Console.WriteLine(Somar(3, 4));
+            Console.WriteLine(Somar(5, 6));
+            return;
+        }
+        static void InstructionTryCatchFinallyThrow(string[] args)
+        {
+            double Dividir(double x, double y)
+            {
+                if (y == 0)
+                {
+                    throw new DivideByZeroException();
+                }
+                return x / y;
+            }
+
+            try
+            {
+                if (args.Length != 2)
+                {
+                    throw new InvalidOperationException("Inform two numbers!");
+                }
+
+                double x = double.Parse(args[0]);
+                double y = double.Parse(args[1]);
+                Console.WriteLine(Dividir(x, y));
+            }
+            catch (InvalidOperationException e) // specific catch - InvalidOperationException
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch (Exception e) // generic catch - Exception
+            {
+                Console.WriteLine($"Generic error: {e.Message}");
+            }
+            finally
+            {
+                Console.WriteLine("See you soon!");
+            }
+        }
+        static void InstructionUsing(string[] args)
+        {
+            using (System.IO.TextWriter w = System.IO.File.CreateText("test.txt")) // using do automatic dispose
+            {
+                w.WriteLine("Line 1");
+                w.WriteLine("Line 2");
+                w.WriteLine("Line 3");
+            }
         }
     }
 }

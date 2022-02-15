@@ -40,3 +40,9 @@
   - throw
   - try, catch, finally
   - using
+
+## 3. Arrays
+
+- reference types;
+- it could be unidimensional
+- multidimensional (matrix)

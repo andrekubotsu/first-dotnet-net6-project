@@ -13,7 +13,7 @@
 
 ### Inheritance
 
-- one classe declartion could specify a base class, getting public, internal and protected members;
+- one classe declaration could specify a base class, getting public, internal and protected members;
 
 ### Methods
 
